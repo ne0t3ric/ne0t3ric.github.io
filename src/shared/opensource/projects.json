@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "id": "",
+      "name": "booker-auto-cli",
+      "createdAt": "2020-01-01T00:00:00Z",
+      "url": "https://github.com/ne0t3ric/booker-auto-cli",
+      "description": "Booking automation procedure (for sports with planning schedule to book, or other disciplines)",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "NodeJS",
+          "iconifyClass": "logos-nodejs"
+        }
+      ]
+    },
+    {
+      "id": "=",
+      "name": "browser-ext-google-redirector ",
+      "createdAt": "2021-01-01T00:00:00Z",
+      "url": "https://github.com/ne0t3ric/browser-ext-google-redirector",
+      "description": "Browser chrome & firefox extension to redirect to google.fr on certain conditions (sandbox to test extensions deveopment)",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        }
+      ]
+    }
+  ]
+}
