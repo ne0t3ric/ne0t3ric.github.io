@@ -2,7 +2,6 @@
   width: 90%;
   padding: 20px 10px;
   margin: 0px auto;
-  margin-top: 4rem;
 }
 .greet-main {
   width: 90%;
@@ -11,9 +10,9 @@
   margin-top: 2rem;
 }
 
-.gretting-main {
-  width: 90%;
-  padding: 20px 10px;
+.greeting-main {
+  width: 95%;
+  padding: 10px 0px;
   margin: 0px auto;
 }
 
@@ -22,7 +21,6 @@
 }
 
 .greeting-main > * {
-  flex: 1;
   margin-bottom: 30px;
 }
 .button-greeting-div {
@@ -32,9 +30,10 @@
 
 .greeting-text {
   margin-top: 80px;
-  font-size: 70px;
+  font-size: 3rem;
   line-height: 1.1;
   font-family: "Google Sans Bold";
+  flex-basis: 130%;
 }
 
 .greeting-nickname {
@@ -44,17 +43,15 @@
 }
 
 .greeting-text-p {
-  font-size: 40px;
+  font-size: 2rem;
   line-height: 40px;
   margin-right: 40px;
   font-family: "Google Sans Medium";
 }
 
-.greeting-image-div > * {
-  max-width: 100%;
-  height: auto;
+.greeting-image-div {
+  flex-basis: 70%;
 }
-
 /* Media Query */
 @media (max-width: 1380px) {
   .greeting-text {

@@ -7,12 +7,24 @@ import DataScienceImg from "./DataScienceImg";
 import FullStackImg from "./FullStackImg";
 import CloudInfraImg from "./CloudInfraImg";
 import DesignImg from "./DesignImg";
+import FrontEndIllustration from "./FrontEndIllustration";
+import BackEndIllustration from "./BackEndIllustration";
+import DevOpsIllustration from "./DevOpsIllustration";
+import SoftSkillIllustration from "./SoftSkillIllustration";
 
 function GetSkillSvg(props) {
   if (props.fileName === "DataScienceImg")
     return <DataScienceImg theme={props.theme} />;
   else if (props.fileName === "FullStackImg")
     return <FullStackImg theme={props.theme} />;
+  else if (props.fileName === "FrontEndIllustration")
+    return <FrontEndIllustration theme={props.theme} />;
+  else if (props.fileName === "BackEndIllustration")
+    return <BackEndIllustration theme={props.theme} />;
+  else if (props.fileName === "DevOpsIllustration")
+    return <DevOpsIllustration theme={props.theme} />;
+  else if (props.fileName === "SoftSkillIllustration")
+    return <SoftSkillIllustration theme={props.theme} />;
   else if (props.fileName === "CloudInfraImg")
     return <CloudInfraImg theme={props.theme} />;
   return <DesignImg theme={props.theme} />;

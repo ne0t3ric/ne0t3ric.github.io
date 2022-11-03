@@ -35,6 +35,8 @@
 .contact-heading-img-div {
   align-items: center;
   justify-content: center;
+  margin: 10px auto;
+  max-width: 50%;
 }
 
 .blog-heading-img-div {

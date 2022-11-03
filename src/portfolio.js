@@ -80,7 +80,7 @@ const skills = {
   data: [
     {
       title: "Front-end Development",
-      fileName: "FullStackImg",
+      fileName: "FrontEndIllustration",
       skills: [
         "⚡ Building responsive SPA web application using Typescript & Vue & Pinia & Vuetify",
         "⚡ Developing an internal web app in React",
@@ -122,13 +122,13 @@ const skills = {
           skillName: "TypeScript",
           fontAwesomeClassname: "simple-icons:typescript",
           style: {
-            backgroundColor: "#3178C6",
-            color: "#FFFFFF",
+            backgroundColor: "#FFFFFF",
+            color: "#3178C6",
           },
         },
         {
           skillName: "VueJS",
-          fontAwesomeClassname: "simple-icons:vue",
+          fontAwesomeClassname: "simple-icons:vuejs",
           style: {
             color: "#4FC08D",
           },
@@ -165,7 +165,7 @@ const skills = {
     },
     {
       title: "Back-end Development",
-      fileName: "FullStackImg",
+      fileName: "BackEndIllustration",
       skills: [
         "⚡ Developing backend web application using Laravel & GraphQL & PostgreSQL for db",
         "⚡ Building a data transformations on-the-fly system in Python, based on Metwork framework",
@@ -178,8 +178,7 @@ const skills = {
           skillName: "PHP",
           fontAwesomeClassname: "simple-icons:php",
           style: {
-            backgroundColor: "#777BB4",
-            color: "#000000",
+            color: "#777BB4"
           },
         },
         {
@@ -201,7 +200,6 @@ const skills = {
           skillName: "GraphQL",
           fontAwesomeClassname: "simple-icons:graphql",
           style: {
-            backgroundColor: "#E10098",
             color: "#E10098",
           },
         },
@@ -209,8 +207,8 @@ const skills = {
           skillName: "TypeScript",
           fontAwesomeClassname: "simple-icons:typescript",
           style: {
-            backgroundColor: "#3178C6",
-            color: "#FFFFFF",
+            backgroundColor: "#FFFFFF",
+            color: "#3178C6",
           },
         },
         {
@@ -252,7 +250,7 @@ const skills = {
     },
     {
       title: "DevOps development",
-      fileName: "FullStackImg",
+      fileName: "DevOpsIllustration",
       skills: [
         "⚡ Creating CI pipelines from scratch",
         "⚡ Building and publishing docker images",
@@ -285,16 +283,16 @@ const skills = {
     },
     {
       title: "Soft skills",
-      fileName: "",
+      fileName: "SoftSkillIllustration",
       skills: [
-        "Perseverance",
-        "Patience",
-        "Self-learning",
-        "Self-awareness",
-        "Empathy",
-        "Teamwork",
-        "Problem solving",
-        "Curiosity"
+        "✨ Perseverance",
+        "🧘‍♂️ Patience",
+        "📘 Self-learning",
+        "🪞 Self-awareness",
+        "👂 Empathy",
+        "🤝 Teamwork",
+        "✍️ Problem solving",
+        "👀 Curiosity"
       ],
       softwareSkills: [],
     },
@@ -493,7 +491,7 @@ const experience = {
           duration: "2015",
           location: "Toulouse, FRANCE",
           description:
-            "Subject: Snow remote sensing for runoff modelling in the Pyrenees. You can find an abstract here: https://drive.google.com/file/d/1JitIRRMaBYfw3_ODZeZIZPmfHV8ZfI6p/view?usp=sharing",
+            "Subject: Snow remote sensing for runoff modelling in the Pyrenees." /** https://drive.google.com/file/d/1JitIRRMaBYfw3_ODZeZIZPmfHV8ZfI6p/view?usp=sharing */,
           color: "#ee3c26",
         }
       ],
@@ -590,7 +588,7 @@ const contactPageData = {
         "",
   },
   addressSection: {
-    title: "Address",
+    title: "Location",
     subtitle:
       "Toulouse, France",
     avatar_image_path: "address_image.svg",
