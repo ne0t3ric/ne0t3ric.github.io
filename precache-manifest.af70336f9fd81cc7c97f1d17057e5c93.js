@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "824240fc198828884c0da5d8e6748364",
+    "revision": "ae5ecee8fb54658c34fb30650c5be6be",
     "url": "/index.html"
   },
   {
-    "revision": "404ef1a172a34a566095",
-    "url": "/static/css/main.eaf9164b.chunk.css"
+    "revision": "d49c230cf3e80ff62b1f",
+    "url": "/static/css/main.f8305b79.chunk.css"
   },
   {
     "revision": "766d73b0b1236a797433",
     "url": "/static/js/2.4b9c93a5.chunk.js"
   },
   {
-    "revision": "404ef1a172a34a566095",
-    "url": "/static/js/main.953740ce.chunk.js"
+    "revision": "d49c230cf3e80ff62b1f",
+    "url": "/static/js/main.7dbfc3de.chunk.js"
   },
   {
     "revision": "1eca90f2cdaa2ecb7d93",
@@ -60,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/animated_logo.dcd6dee2.svg"
   },
   {
-    "revision": "aec3b6c6765b7de37c7a060ddf5f5e07",
-    "url": "/static/media/avatar_neoteric.aec3b6c6.png"
+    "revision": "57b3353ab18128991adce394a5062722",
+    "url": "/static/media/avatar_neoteric.57b3353a.png"
   },
   {
     "revision": "058eca4cbdc03a1dad9a6bb943ac7831",
@@ -168,10 +168,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/fa-solid-900.8e4a6dcc.eot"
   },
   {
-    "revision": "2936ce95f550e3feef7230ea543a4b60",
-    "url": "/static/media/feelingProud.2936ce95.svg"
-  },
-  {
     "revision": "fce6080726685cabdb4f75a0d8018325",
     "url": "/static/media/fullstack.fce60807.svg"
   },
@@ -258,5 +254,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d63630893eb8cb64af65f395d393c481",
     "url": "/static/media/ui_ux_design.d6363089.svg"
+  },
+  {
+    "revision": "34f7e2547c8f9407f2fdf8d7750c283c",
+    "url": "/static/media/workingOnComputed.34f7e254.svg"
   }
 ]);
